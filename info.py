@@ -7,6 +7,7 @@ FILE_CAPTION = environ.get("FILE_CAPTION", "<code>{file_name}</code>")
 OWNER = environ.get("OWNER", "7990174185")
 PRIVATE_BOT = environ.get("PRIVATE_BOT", False)
 UPDATES_CHANNEL = environ.get("UPDATES_CHANNEL", "https://t.me/+qFspMh2clnJkNGI1")
+UPDATES_CHANNEL = environ.get("UPDATES_CHANNEL", "https://t.me/+qFspMh2clnJkNGI1")
 SUPPORT_GROUP = environ.get("SUPPORT_GROUP", "https://t.me/+qFspMh2clnJkNGI1")
 DEV_LINK = environ.get("DEV_LINK", "https://t.me/Ritikmoves2")
 
