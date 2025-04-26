@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from info import PRIVATE_BOT, OWNER, UPDATES_CHANNEL,HOW TO USE, DEV_LINK
+from info import PRIVATE_BOT, OWNER, UPDATES_CHANNEL, DEV_LINK
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 
