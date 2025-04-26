@@ -8,8 +8,7 @@ async def start(client, message):
     btn = [[
         InlineKeyboardButton('Updates Channel', url=UPDATES_CHANNEL),
         InlineKeyboardButton('Updates Channel', url=UPDATES_CHANNEL),
-        InlineKeyboardButton('Support Group', url=SUPPORT_GROUP),
-        InlineKeyboardButton('HOW TO USE', url=HOW TO USE)
+        InlineKeyboardButton('Support Group', url=SUPPORT_GROUP)
     ],[
         InlineKeyboardButton('Contact', url=DEV_LINK)
     ]]
