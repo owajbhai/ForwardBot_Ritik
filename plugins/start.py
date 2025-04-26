@@ -1,11 +1,12 @@
 from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from info import UPDATES_CHANNEL, SUPPORT_GROUP, DEV_LINK
+from info import UPDATES_CHANNEL, SUPPORT_GROUP, DEV_LINK,HOW TO USE
 
 
 @Client.on_message(filters.private & filters.command(["start"]) & filters.incoming)
 async def start(client, message):
     btn = [[
+        InlineKeyboardButton('Updates Channel', url=UPDATES_CHANNEL),
         InlineKeyboardButton('Updates Channel', url=UPDATES_CHANNEL),
         InlineKeyboardButton('Support Group', url=SUPPORT_GROUP)
     ],[
