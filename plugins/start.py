@@ -1,6 +1,6 @@
 from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from info import UPDATES_CHANNEL, SUPPORT_GROUP, DEV_LINK,HOW TO USE
+from info import UPDATES_CHANNEL, SUPPORT_GROUP, DEV_LINK,
 
 
 @Client.on_message(filters.private & filters.command(["start"]) & filters.incoming)
