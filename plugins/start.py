@@ -7,7 +7,6 @@ from info import UPDATES_CHANNEL, SUPPORT_GROUP, DEV_LINK,
 async def start(client, message):
     btn = [[
         InlineKeyboardButton('Updates Channel', url=UPDATES_CHANNEL),
-        InlineKeyboardButton('Updates Channel', url=UPDATES_CHANNEL),
         InlineKeyboardButton('Support Group', url=SUPPORT_GROUP)
     ],[
         InlineKeyboardButton('Contact', url=DEV_LINK)
